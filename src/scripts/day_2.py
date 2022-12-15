@@ -92,7 +92,7 @@ with open(DATA_FILE_PATH) as f:
         outcome_of_game = outcome_dict[line[2]]
         player_resp = player_response(opponent = opponent, 
                                         game_outcome = outcome_of_game)
-        print(opponent, outcome_of_game, player_resp)
         total_score += game_score(opponent=opponent, player=player_resp)
 
+# Answer for Part 2
 print(total_score)
