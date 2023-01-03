@@ -102,7 +102,7 @@ with open(DATA_FILE_PATH) as f:
     line_chunks = [lines[7*i:7*i+7] for i in range(1 + int(len(lines)/7))]
     for line_chunk in line_chunks:
         monkey_dict[get_monkey_id(line_chunk)] = Monkey(**parse_lines(line_chunk))
-        
+
 # 10000 Rounds
 for _ in range(10000):
     for monkey_id in monkey_dict.keys():
@@ -115,5 +115,5 @@ for monkey_id in monkey_dict.keys():
     counters.append(monkey_dict[monkey_id].counter)
 sorted_counters = sorted(counters, reverse = True)
 
-# Answer to Part I
+# Answer to Part II
 print(sorted_counters[0] * sorted_counters[1])
