@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # Path to data
-DATA_FOLDER_PATH = Path.cwd() / 'src' / 'data'
+DATA_FOLDER_PATH = Path.cwd() / 'src' / '2022' / 'data'
 FILE_NAME = 'day_1.txt'
 DATA_FILE_PATH = DATA_FOLDER_PATH / FILE_NAME
 
