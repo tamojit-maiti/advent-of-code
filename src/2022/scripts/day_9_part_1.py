@@ -2,7 +2,7 @@ from pathlib import Path
 import numpy as np
 
 # Path to data
-DATA_FOLDER_PATH = Path.cwd() / 'src' / 'data'
+DATA_FOLDER_PATH = Path.cwd() / 'src' / '2022' / 'data'
 FILE_NAME = 'day_9.txt'
 DATA_FILE_PATH = DATA_FOLDER_PATH / FILE_NAME
 
