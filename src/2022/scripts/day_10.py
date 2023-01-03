@@ -27,7 +27,6 @@ with open(DATA_FILE_PATH) as f:
             CYCLE += 2
             X += digit
         if CYCLE in [20,60,100,140,180,220]:
-            print(CYCLE, X)
             running_sum += CYCLE * X
 
 # Answer to Part I
@@ -48,4 +47,5 @@ for cycle, x in cycle_x_log:
     if (cycle%40==0):
         output_str += '\n'
 
+# Answer to Part II
 print(output_str)
