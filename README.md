@@ -1,3 +1,3 @@
-# Advent of Code 2022
+# Advent of Code
 
-This contains solutions to all [Advent of Code 2022](https://adventofcode.com/)
+This aims to (ultimately) contain solutions to all [Advent of Code](https://adventofcode.com/) problems from 2015 to the present day
